@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Main Funcationality">
+        <menu>
+            <item
+                android:id="@+id/fragmentone"
+                android:title="Fragment One"
+                android:icon="@drawable/ic_menu_send"/>
+            <item
+                android:id="@+id/fragmenttwo"
+                android:title="Fragment Two"
+                android:icon="@drawable/side_nav_bar"/>
+            <item
+                android:id="@+id/exitfromapp"
+                android:title="Exit" />
+
+        </menu>
+    </item>
+
+        <!--<group android:checkableBehavior="single">
+            <item
+                android:id="@+id/toastone"
+                android:icon="@drawable/side_nav_bar"
+                android:title="Toast One" />
+            <item
+                android:id="@+id/toasttwo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Toast Two" />
+        </group>-->
+</menu>

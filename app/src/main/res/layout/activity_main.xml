@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stadium"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:background="@drawable/curved_view3"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/pname"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="Player Name"
+        android:textSize="30dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_below="@+id/main"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/lighter" />
+
+    <EditText
+        android:id="@+id/inning1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="1st Inning Score"
+        android:textSize="30dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_below="@+id/pname"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:background="@color/lighter" />
+
+    <EditText
+        android:id="@+id/inning2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="2nd Inning Score"
+        android:textSize="30dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_below="@+id/inning1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:background="@color/lighter" />
+
+    <EditText
+        android:id="@+id/inning3"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="3rd Inning Score"
+        android:textSize="30dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_below="@+id/inning2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:background="@color/lighter" />
+
+    <EditText
+        android:id="@+id/inning4"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="4th Inning Score"
+        android:textSize="30dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_below="@+id/inning3"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:background="@color/lighter" />
+
+    <EditText
+        android:id="@+id/inning5"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="5th Inning Score"
+        android:textSize="30dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_below="@+id/inning4"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:background="@color/lighter" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inning5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:background="@drawable/curved_view5"/>
+
+    </RelativeLayout>
+
+</ScrollView>
